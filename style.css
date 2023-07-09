@@ -110,7 +110,7 @@
     width: 1220px;
     height: 300px;
     margin: 130px 370px;
-    background: url('/images/watch.png'), url('images/gradient2.png');
+    background: url('/images/watch.png');
     background-repeat: no-repeat;
     position: relative;
 }

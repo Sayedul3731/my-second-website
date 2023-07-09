@@ -54,7 +54,7 @@
 }
 .failures-content{
     margin-right: 320px;
-    width: ;
+    width: 420px;
 }
 .failure-title{
     font-size: 40px;
@@ -71,4 +71,128 @@
 }
 .failures-lists{
     margin-left: 18px;
+}
+/* plan styles starts here  */
+.plan{
+    margin: 150px 290px;
+
+}
+.plan-title{
+    text-align: center;
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+.plan-tecno{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 80px;
+    margin-top: 50px;
+}
+.plan-tec-title{
+    font-size: 30px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    color:  #151414;
+}
+.plan-tec{
+    text-align: center;
+
+}
+.plan-desc{
+    color:  #737272;
+    font-size: 25px;
+    font-weight: 500;
+}
+/* watch styles starts here  */
+.watch{
+    width: 1220px;
+    height: 300px;
+    margin: 130px 370px;
+    background: url('/images/watch.png'), url('images/gradient2.png');
+    background-repeat: no-repeat;
+    position: relative;
+}
+.watch-content{
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 65px;
+    width: 450px;
+}
+.watch-title{
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+}
+.watch-btn{
+    padding: 16px 35px;
+    border: 0px;
+    color: #F15B22;
+    color: #F15B22;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 24px;
+    border-radius: 5px;
+}
+/* footer styles starts here  */
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 485px;
+    background-color: #151414;
+
+}
+.footer-content{
+    width: 500px;
+    /* margin-left: 90px; */
+}
+.footer-content-title{
+    color:#f8f8f8;
+    font-size:40px;
+    font-weight:700px;
+}
+.footer-content-description{
+    color: white;
+    font-weight: 400px;
+    margin-top: 24px;
+    margin-bottom: 23px;
+}
+.footer-email, .footer-phone{
+    color: white;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.footer-icon{
+    gap: 20px;
+}
+.footer-button{
+    display: block;
+    /* margin-right: 250px; */
+}
+.footer-button-title{
+    color: white;
+    font-size: 25px;
+    font-weight: 600px;
+    margin-bottom: 30px;
+
+}
+.btn-email{
+    width: 300px;
+    padding: 20px 150px 21px 20px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    margin-bottom: 30px;
+}
+.btn-subscribes{
+    padding: 20px 35px;
+    color: #F15B22;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 600px;
+    border: none;
 }
